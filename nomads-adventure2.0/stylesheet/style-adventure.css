@@ -1,0 +1,41 @@
+body{
+    font-size: 0;
+    margin: 10px;
+    margin-right: 0;
+}
+
+
+.grid-unit{
+    vertical-align: top;
+    width: calc(25% - 10px);
+    height: 300px;
+    display: inline-block;
+    background-color: blue;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.special{
+    background-color: red;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.taller{
+    height: 500px;
+}
+
+.line-height-test{
+    background-color: red;
+    display:block;
+    width: auto;
+    height: auto;
+      font-size: 18px;
+    line-height: 3;
+}
+
+
+.div-inside-div{
+    font-size: 12px;
+    background-color: yellow;
+}

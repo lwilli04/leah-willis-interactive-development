@@ -1,0 +1,111 @@
+
+@charset "UTF-8";
+
+html{
+    font-size:8px;
+    line-height: 1.3;
+}
+
+
+.banner{
+    
+    width: auto;
+    height: 220px;
+    display: block;
+    background-color: black;
+    font-size: 4rem;
+    text-align: left;
+    padding: 3.5rem;
+   color: white;
+   position: relative;
+   right: 8px;
+   bottom: 8px;
+}
+
+#logo{
+    width:175px;
+    position:absolute;
+    left:calc(4.5rem * 1.3);
+    top:calc(2rem * 1.3);
+}
+
+
+#title-text{
+    position: absolute;
+    top:2rem;
+    padding-left: 30rem;
+}
+
+
+.section-1{
+
+     width: 590px;
+    height: 4rem;
+    display: block;
+    background-color: rgb(112, 195, 195);
+    font-size: 4rem;
+    right: 8px;
+    padding: 3rem;
+   color: black;
+   position: relative;
+   margin-top: 3rem;
+}
+
+.my-link-titles{
+    font-size: 2.5rem;
+}
+
+.my-unit{
+    display: inline-block;
+}
+
+.my-pics{
+    width: 300px;
+    height: 300px;
+    margin-top: 4rem;
+    margin-right: 4rem;
+}
+
+
+.class-unit{
+ display: inline-block;
+}
+
+.class-pic-1{
+    width: 400px;
+    height: 150px;
+    margin-top: 3rem;
+    margin-right: 4rem;
+}
+
+.class-pic-2{
+    width: 400px;
+    height: 150px;
+    margin-top: 3rem;
+}
+
+.class-link-titles{
+    font-size: 2.5rem;
+}
+
+.section-2{
+
+     width: 590px;
+    height: 4rem;
+    display: block;
+    background-color: rgb(112, 195, 195);
+    font-size: 4rem;
+    right: 8px;
+    padding:3rem;
+   color: black;
+   position: relative;
+   margin-top: 9rem;
+   margin-bottom: 1rem;
+}
+
+
+
+
+
+
+

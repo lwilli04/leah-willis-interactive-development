@@ -1,6 +1,173 @@
 @charset "UTF-8";
 
+@font-face {
+  font-family: "skia";
+  src: url("fonts/Skia.ttf");
+}
+
+
 html{
     font-size:8px;
-    line-height: 1.3;
+    line-height: 1;
+}
+
+
+.background{
+    width: 800px;
+    height: 950px;
+    display: block;
+    background-color: rgb(124, 128, 189);
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding: 2rem;
+    font-family: skia;
+} 
+
+
+.title-unit{
+    font-size: 3rem;
+    padding: 2rem;
+    color: white;
+    position: relative;
+    margin-top:-20px; 
+    margin-left: 10px;
+    margin-bottom:px;
+    font-family: skia;
+}
+
+
+#colored-words{
+    color: rgb(98, 43, 64);
+}
+
+#nomad-line{
+    font-family: skia;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgb(225, 145, 87);
+}
+
+
+.ai-photos{
+    width: auto;
+    height: 700px;
+    position: relative;
+}
+
+
+.ai-photos>img{
+height:100%;
+margin-bottom: 0px;
+}
+
+
+.story-unit{
+    display: block;
+    width: 700px;
+    height: 11rem;
+    background-color: white;
+    color:black;
+    position: absolute;
+    font-size: 2.5rem;
+   margin-left: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.choices{
+    width: 225px;
+    height: 4rem;
+    display: inline-block;
+    background-color: rgb(225, 145, 87);
+    font-size: 2.5rem;
+    padding: 1rem;
+    color: black;
+    position: relative;
+    margin-top:100px;
+    margin-right: 70px;
+    margin-left: 55px;
+    margin-bottom: 100px;
+    font-family: skia;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.choices-cry{
+    width: 225px;
+    height: 7rem;
+    display: inline-block;
+    background-color: rgb(225, 145, 87);
+    font-size: 2.5rem;
+    padding: 1rem;
+    color: black;
+    position: relative;
+    margin-top:100px;
+    margin-right: 70px;
+    margin-left: 55px;
+    margin-bottom: 100px;
+    font-family: skia;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.choices-cry-2{
+    width: 225px;
+    height: 4rem;
+    display: inline-block;
+    background-color: rgb(225, 145, 87);
+    font-size: 2.5rem;
+    padding: 1rem;
+    color: black;
+    position: relative;
+    bottom: 40px;
+    margin-right: 70px;
+    margin-left: 55px;
+    margin-bottom: 100px;
+    font-family: skia;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+.choices-go-find-water{
+    width: 225px;
+    height: 4rem;
+    display: inline-block;
+    background-color: rgb(225, 145, 87);
+    font-size: 2.5rem;
+    padding: 1rem;
+    color: black;
+    position: relative;
+    bottom: 20px;
+    margin-right: 70px;
+    margin-left: 55px;
+    margin-bottom: 100px;
+    font-family: skia;
+    font-weight: bold;
+    border-radius: 10px;
 }

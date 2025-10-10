@@ -5,43 +5,39 @@ html{
     line-height:2rem;
 }
 
-@font-face {
-  font-family: "skia";
-  src: url("fonts/Skia.ttf");
-}
-
 
 .background{
     width: 450px;
     height: 700px;
     display: block;
     background-color: rgb(68, 65, 69);
-    font-size:;
-    text-align:;
     color: white;
     position: relative;
-    
-    
 } 
 
 
 .circle{
- font-size: 30px;
-background-color: rgb(138, 127, 94);
 height: 70px;
   width: 70px;
   display: inline-block;
-  padding:;
   margin-top: 1rem;
   margin-left: 2rem;
   margin-right: 1rem;
-  border-radius: 100px;}
+}
+
+
+  .circle>img{
+    width:100%;
+    height:100%;
+    display: inline-block;
+  }
+
 
   .vertical-lines{
     width: 2px;
     height:70px;
     display: inline-block;
-    background-color:  rgb(138, 127, 94);
+    background-color: rgb(144, 129, 108);
   }
 
 
@@ -51,7 +47,6 @@ height: 70px;
     display: inline-block;
     margin-left: 5.5rem;
     margin-right: 5.5rem;
-    margin-top: ;
 }
 
 
@@ -59,31 +54,35 @@ height: 70px;
 width:100%;
 height:100%;
 display: inline-block;
-margin-top:;
 }
 
 
 .corner-info{
-    font-size: ;
+    text-align: center;
     display:inline-block;
     margin-left: 1rem;
     margin-right: 2rem;
+    margin-top: 1.5rem;
+    line-height: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 .brunch{
-    font-size: 2rem;
+    font-size: 2.5rem;
     position: relative;
     text-align: center;
     right: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .brunch-line{
      width: 415px;
-    height:3px;
-    display: ;
-    background-color:  rgb(138, 127, 94);
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    height:4px;
+    background-color: rgb(144, 129, 108);
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
     margin-left: 2rem;
 }
 
@@ -94,6 +93,16 @@ margin-top:;
     text-align: center;
     right: 2rem;
     margin: .5rem;
+      font-family: 'Courier New', Courier, monospace;
+}
+
+.classicss{
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
+    right: 2rem;
+    margin-bottom: 1.5rem;
+      font-family: 'Courier New', Courier, monospace;
 }
 
 .served{
@@ -102,18 +111,48 @@ margin-top:;
     text-align: center;
     right: 2rem;
     margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .menu-titles{
     margin-left: 2rem;
     font-weight: bold;
     font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.descriptions{
+.menu-titless{
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.top-descriptions{
     margin-left: 2rem;
     margin-right: 2rem;
+    width: 375px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
 }
+
+.mid-descriptions{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+}
+
+.bot-descriptions{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+}
+
 
 .favorates-box{
     width: 415px;
@@ -121,59 +160,87 @@ margin-top:;
     display: block;
     margin-left: 2rem;
     margin-top: 1.5rem;
-    background-color: rgb(138, 127, 94);
+    margin-bottom: 1rem;
+    background-color: rgb(144, 129, 108);
     padding-top: .5rem;
     color: white;
-    position: relative;
 }
 
 .bottom-left{
+    vertical-align: top;
     display: inline-block;
     width: 215px;
-    height: 80px;
+    height: 10px;
+    margin-top: 1px;
 }
 
 
 .bottom-vertical-line{
-     width: 2px;
+     width: 1.5px;
     height:100px;
     display: inline-block;
-    background-color:  rgb(138, 127, 94);
+    background-color: rgb(144, 129, 108);
 }
 
 
 .bottom-right{
+    vertical-align: top;
     display: inline-block;
      width: 215px;
-    height: 80px;
-    text-align: center;
+    height: 10px;
+   margin-top: 1px;
 }
+
+
 .classics2{
+    width: 115px;
+    height: 35px;
     font-size: 2rem;
-    position: relative;
-    text-align:;
-    right:;
-    margin-left:2rem ;
-    display:;
+    text-align:center;
+   margin-top: .5rem;
+    margin-left:6.5rem ;
+    line-height: 2rem;
+    display: inline-block;
+
 }
 
 .classics3{
+    width: 115px;
+    height: 15px;
+    text-align: center;
+    margin-top: .5rem;
     font-size: 2rem;
-    position: relative;
-    text-align:;
-    right:;
-    margin-left:2rem ;
-    line-height:.5rem;
+    margin-left:6rem ;
+    line-height:2rem;
+    display: inline-block;
 }
 
 .bottom-line{
     width: 450px;
-    height: 25px;
-    background-color:  rgb(138, 127, 94);
+    height: 30px;
+    background-color: rgb(144, 129, 108);
+    
 }
 
 .bottom-line-info{
+    width: 425px;
     text-align: center;
     margin: .5rem;
+    line-height: 1rem;
+    padding: .5rem;
+}
+
+.descriptions2{
+    margin-left: 9rem;
+    margin-right: 2rem;
+    line-height: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.descriptionss2{
+    margin-left: 10rem;
+    margin-right: 2rem;
+    line-height: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 

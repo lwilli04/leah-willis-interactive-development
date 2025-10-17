@@ -5,242 +5,227 @@ html{
     line-height:2rem;
 }
 
+@font-face {
+  font-family: "chalk";
+  src: url("fonts/Chalkduster.ttf");
+}
 
-.background{
-    width: 450px;
-    height: 700px;
-    display: block;
-    background-color: rgb(68, 65, 69);
-    color: white;
+
+  .top{
+    max-width: 600px;
+    min-width: 600px;
+    height: 300px;
+    margin: 0 auto;
     position: relative;
-} 
-
-
-.circle{
-height: 70px;
-  width: 70px;
-  display: inline-block;
-  margin-top: 1rem;
-  margin-left: 2rem;
-  margin-right: 1rem;
-}
-
-
-  .circle>img{
-    width:100%;
-    height:100%;
-    display: inline-block;
-  }
-
-
-  .vertical-lines{
-    width: 2px;
-    height:70px;
-    display: inline-block;
-    background-color: rgb(144, 129, 108);
-  }
-
-
-  .logo{
-    width: 125px;
-    height: 100px;
-    display: inline-block;
-    margin-left: 5.5rem;
-    margin-right: 5.5rem;
-}
-
-
-.logo>img{
-width:100%;
-height:100%;
-display: inline-block;
-}
-
-
-.corner-info{
-    text-align: center;
-    display:inline-block;
-    margin-left: 1rem;
-    margin-right: 2rem;
-    margin-top: 1.5rem;
-    line-height: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-.brunch{
-    font-size: 2.5rem;
-    position: relative;
-    text-align: center;
-    right: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.brunch-line{
-     width: 415px;
-    height:4px;
-    background-color: rgb(144, 129, 108);
-    margin-top: .5rem;
-    margin-bottom: 1.5rem;
-    margin-left: 2rem;
-}
-
-
-.classics{
-    font-size: 3rem;
-    position: relative;
-    text-align: center;
-    right: 2rem;
-    margin: .5rem;
-      font-family: 'Courier New', Courier, monospace;
-}
-
-.classicss{
-    font-size: 3rem;
-    position: relative;
-    text-align: center;
-    right: 2rem;
-    margin-bottom: 1.5rem;
-      font-family: 'Courier New', Courier, monospace;
-}
-
-.served{
-     font-size:1.5rem;
-    position: relative;
-    text-align: center;
-    right: 2rem;
-    margin-bottom: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.menu-titles{
-    margin-left: 2rem;
-    font-weight: bold;
-    font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.menu-titless{
-    margin-left: 2rem;
-    font-weight: bold;
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.top-descriptions{
-    margin-left: 2rem;
-    margin-right: 2rem;
-    width: 375px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5rem;
-}
-
-.mid-descriptions{
-    margin-left: 2rem;
-    margin-right: 2rem;
-    width: 320px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5rem;
-}
-
-.bot-descriptions{
-    margin-left: 2rem;
-    margin-right: 2rem;
-    width: 180px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5rem;
-}
-
-
-.favorates-box{
-    width: 415px;
-    height: 215px;
-    display: block;
-    margin-left: 2rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
-    background-color: rgb(144, 129, 108);
-    padding-top: .5rem;
-    color: white;
-}
-
-.bottom-left{
-    vertical-align: top;
-    display: inline-block;
-    width: 215px;
-    height: 10px;
-    margin-top: 1px;
-}
-
-
-.bottom-vertical-line{
-     width: 1.5px;
-    height:100px;
-    display: inline-block;
-    background-color: rgb(144, 129, 108);
-}
-
-
-.bottom-right{
-    vertical-align: top;
-    display: inline-block;
-     width: 215px;
-    height: 10px;
-   margin-top: 1px;
-}
-
-
-.classics2{
-    width: 115px;
-    height: 35px;
-    font-size: 2rem;
-    text-align:center;
-   margin-top: .5rem;
-    margin-left:6.5rem ;
-    line-height: 2rem;
-    display: inline-block;
-
-}
-
-.classics3{
-    width: 115px;
-    height: 15px;
-    text-align: center;
-    margin-top: .5rem;
-    font-size: 2rem;
-    margin-left:6rem ;
-    line-height:2rem;
-    display: inline-block;
-}
-
-.bottom-line{
-    width: 450px;
-    height: 30px;
-    background-color: rgb(144, 129, 108);
+    top: 5px;
     
 }
 
-.bottom-line-info{
-    width: 425px;
+
+.top>img{
+width:100%;
+height:100%;
+}
+
+  .board{
+    max-width: 600px;
+    min-width: 600px;
+    height: 800px;
+    margin: 0 auto;
+   
+}
+
+
+.board>img{
+width:100%;
+height:100%;
+}
+
+
+.welcome{
+    font-size: 2.5rem;
     text-align: center;
+    right: 2rem;
+    font-family: "chalk";
+    position: relative;
+    bottom: 790px;
+    color: beige;
+}
+
+
+.name{
+    font-size: 6rem;
+    position: relative;
+    text-align: center;
+    right: 2rem;
     margin: .5rem;
-    line-height: 1rem;
-    padding: .5rem;
+      font-family: "chalk";
+      bottom: 750px;
 }
 
-.descriptions2{
-    margin-left: 9rem;
-    margin-right: 2rem;
-    line-height: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
+
+#red-1{
+    color: rgb(161, 76, 76);
 }
 
-.descriptionss2{
+#red-2{
+    color: rgb(200, 91, 14);
+}
+
+#orange{
+    color: rgb(216, 141, 71);
+}
+
+#yellow-1{
+    color: rgb(211, 178, 47);
+}
+
+#yellow-2{
+    color: rgb(186, 203, 90);
+}
+
+#green-1{
+    color: rgb(116, 191, 87);
+}
+
+#green-2{
+    color: rgb(45, 148, 138);
+}
+
+#blue-1{
+    color: rgb(14, 147, 200);
+}
+
+#blue-2{
+    color: rgb(96, 98, 211);
+}
+
+#purp-1{
+    color: rgb(126, 72, 213);
+}
+
+#purp-2{
+    color: rgb(160, 90, 203);
+}
+
+
+.menu-line{
+     width: 325px;
+    height:2px;
+   background-color: beige;
+    margin-left: 115px;
+    bottom: 720px;
+    position: relative;
+}
+
+.side-box{
+    height: 175px;
+    width: 175px;
+    font-size: 3.5rem;
+    position: relative;
+    bottom: 700px;
+    left: 60px;
+    color: beige;
+    font-family: chalk;
+    text-align: center;
+    line-height: 2.5rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.chakra{
+    font-size: 2.5rem;
+    color: rgb(200, 91, 14);
+    font-family: chalk;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.details{
+    font-size: 1.5rem;
+    color: beige;
+    font-family: chalk;
+    text-align: center;
+}
+
+.sacred{
+    font-size: 2.5rem;
+    color: rgb(116, 191, 87);
+    font-family: chalk;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.drink-box{
+    height: 175px;
+    width: 175px;
+    font-size: 3.5rem;
+    position: relative;
+    bottom: 700px;
+    left: 60px;
+    color: beige;
+    font-family: chalk;
+    text-align: center;
+    line-height: 2.5rem;
+    display: inline-block;
     margin-left: 10rem;
-    margin-right: 2rem;
-    line-height: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+
 }
 
+.chi{
+    font-size: 2.5rem;
+   color: rgb(216, 141, 71);
+    font-family: chalk;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.yoga{
+    font-size: 2.5rem;
+   color: rgb(14, 147, 200);
+    font-family: chalk;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.platter-box{
+    height: 175px;
+    width: 425px;
+    font-size: 3.5rem;
+    position: relative;
+   right: 245px;
+   top: 40px;
+    color: beige;
+    font-family: chalk;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.yin{
+    font-size: 2.5rem;
+  color: rgb(211, 178, 47);
+    font-family: chalk;
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.manda{
+    font-size: 2.5rem;
+  color: rgb(126, 72, 213);
+    font-family: chalk;
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.manda2{
+    font-size: 1.5rem;
+    color: beige;
+    font-family: chalk;
+    text-align: left;
+}

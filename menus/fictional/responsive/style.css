@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+html{
+    font-size:8px;
+    line-height:2rem;
+}
+
+@font-face {
+  font-family: "chalk";
+  src: url("fonts/Chalkduster.ttf");
+}
+
+
+  .top{
+    max-width: 600px;
+    min-width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+    
+}
+
+
+.top>img{
+width:100%;
+height:100%;
+}
+
+  .board{
+    max-width: 600px;
+    min-width: 600px;
+    height: 800px;
+    margin: 0 auto;
+   
+}
+
+
+.board>img{
+width:100%;
+height:100%;
+}
+
+
+.welcome{
+    font-size: 2.5rem;
+    text-align: center;
+    right: 2rem;
+    font-family: "chalk";
+    position: relative;
+    bottom: 790px;
+    color: beige;
+}
+
+
+.name{
+    font-size: 6rem;
+    position: relative;
+    text-align: center;
+    right: 2rem;
+    margin: .5rem;
+      font-family: "chalk";
+      bottom: 750px;
+}
+
+
+#red-1{
+    color: rgb(161, 76, 76);
+}
+
+#red-2{
+    color: rgb(200, 91, 14);
+}
+
+#orange{
+    color: rgb(216, 141, 71);
+}
+
+#yellow-1{
+    color: rgb(211, 178, 47);
+}
+
+#yellow-2{
+    color: rgb(186, 203, 90);
+}
+
+#green-1{
+    color: rgb(116, 191, 87);
+}
+
+#green-2{
+    color: rgb(45, 148, 138);
+}
+
+#blue-1{
+    color: rgb(14, 147, 200);
+}
+
+#blue-2{
+    color: rgb(96, 98, 211);
+}
+
+#purp-1{
+    color: rgb(126, 72, 213);
+}
+
+#purp-2{
+    color: rgb(160, 90, 203);
+}
+
+
+.menu-line{
+     width: 325px;
+    height:2px;
+   background-color: beige;
+    margin-left: 115px;
+    bottom: 720px;
+    position: relative;
+}
+
+.side-box{
+    height: 175px;
+    width: 175px;
+    font-size: 3.5rem;
+    position: relative;
+    bottom: 700px;
+    left: 60px;
+    color: beige;
+    font-family: chalk;
+    text-align: center;
+    line-height: 2.5rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.chakra{
+    font-size: 2.5rem;
+    color: rgb(200, 91, 14);
+    font-family: chalk;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.details{
+    font-size: 1.5rem;
+    color: beige;
+    font-family: chalk;
+    text-align: center;
+}
+
+.sacred{
+    font-size: 2.5rem;
+    color: rgb(116, 191, 87);
+    font-family: chalk;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.drink-box{
+    height: 175px;
+    width: 175px;
+    font-size: 3.5rem;
+    position: relative;
+    bottom: 700px;
+    left: 60px;
+    color: beige;
+    font-family: chalk;
+    text-align: center;
+    line-height: 2.5rem;
+    display: inline-block;
+    margin-left: 10rem;
+    vertical-align: top;
+
+}
+
+.chi{
+    font-size: 2.5rem;
+   color: rgb(216, 141, 71);
+    font-family: chalk;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.yoga{
+    font-size: 2.5rem;
+   color: rgb(14, 147, 200);
+    font-family: chalk;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.platter-box{
+    height: 175px;
+    width: 425px;
+    font-size: 3.5rem;
+    position: relative;
+   right: 245px;
+   top: 40px;
+    color: beige;
+    font-family: chalk;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.yin{
+    font-size: 2.5rem;
+  color: rgb(211, 178, 47);
+    font-family: chalk;
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.manda{
+    font-size: 2.5rem;
+  color: rgb(126, 72, 213);
+    font-family: chalk;
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.manda2{
+    font-size: 1.5rem;
+    color: beige;
+    font-family: chalk;
+    text-align: left;
+}

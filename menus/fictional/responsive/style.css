@@ -25,8 +25,8 @@ margin: auto;
 
 .board{
     width: auto;
-    min-width: 25%;
-    height: 1100px;
+    /* min-width: 25%; */
+    height: 750px;
     margin: auto;
     background-color: black;
 display: flexbox;
@@ -38,7 +38,7 @@ position: relative;
 .welcome{
     font-size: 2.5rem;
     text-align: center;
-    right: 2rem;
+    /* right: 2rem; */
     font-family: "chalk";
     position: relative;
     color: white;
@@ -64,7 +64,7 @@ height:100%;
     font-size: 6rem;
     position: relative;
     text-align: center;
-    right: 2rem;
+    /* right: 2rem; */
     margin: .5rem;
       font-family: "chalk";
 }
@@ -106,9 +106,9 @@ height:100%;
 
 
 .title-box{
-  width: 600px;
+  width: auto;
     min-width: 25%;
-    height: 85px;
+    height: 95px;
     margin: auto;
 display: block;
 position: relative;
@@ -116,8 +116,8 @@ position: relative;
 }
 
 .side-box{
-    height: 210px;
-    width: 225px;
+    height: 240px;
+    width: 280px;
     font-size: 3.5rem;
     color: white;
     border: 2px solid white;
@@ -125,9 +125,10 @@ position: relative;
     line-height: 2rem;
     display: inline-block;
     vertical-align: top;
-    margin-top: 40px;
-    padding: 2rem;
+    /* margin-top: 40px; */
+    /* padding: 2rem; */
  position: relative;
+ box-sizing: border-box;
 }
 
 .help{
@@ -146,6 +147,7 @@ position: relative;
     font-size: 1.5rem;
     color: white;
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .sacred{
@@ -174,8 +176,8 @@ position: relative;
 
 
 .platter-box{
-    height: 175px;
-    width: 425px;
+    height: 225px;
+    width: auto;
     font-size: 3.5rem;
     position: relative;
     color: white;
@@ -189,7 +191,7 @@ position: relative;
 .yin{
     font-size: 2.5rem;
   color: rgb(211, 178, 47);
-    font-family: chalk;
+    /* font-family: chalk; */
     text-align: left;
     margin-bottom: 1rem;
     margin-top: 1.5rem;
@@ -198,7 +200,7 @@ position: relative;
 .manda{
     font-size: 2.5rem;
   color: rgb(126, 72, 213);
-    font-family: chalk;
+    /* font-family: chalk; */
     text-align: left;
     margin-bottom: 1rem;
     margin-top: 1.5rem;
@@ -207,8 +209,14 @@ position: relative;
 .manda2{
     font-size: 1.5rem;
     color: white;
-    font-family: chalk;
+    /* font-family: chalk; */
     text-align: left;
+    margin-bottom: 3rem;
+}
+
+#prices{
+    font-size: 2rem;
+    font-weight: 300;
 }
 
 .bottom-mandalas{

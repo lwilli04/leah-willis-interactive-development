@@ -6,6 +6,16 @@ html{
     line-height: 1.3;
 }
 
+p{
+margin:2rem;
+}
+
+ul{
+ color: black;
+
+
+}
+
 
 .banner{
     
@@ -32,15 +42,14 @@ html{
 
 #title-text{
     position: absolute;
-    top:2rem;
-    padding-left: 30rem;
+    top:0;
+    padding-left: 28rem;
 }
 
 
 .section-1{
 
     width: auto;
-    height: 4rem;
     display: block;
     background-color: black;
     font-size: 4rem;
@@ -51,12 +60,36 @@ html{
    margin-top: 3rem;
 }
 
+
+
+a{
+color:black
+}
+
+/* when <a></a> is hovered by mouse*/
+a:hover{
+color:rgb(143, 143, 143);
+}
+
+/* when <a></a> is clicked*/
+a:active{
+color:blue;
+}
+
+a:visited{
+color:black;
+}
+
+
+
 .my-link-titles{
     font-size: 2.5rem;
 }
 
 .my-unit{
     display: inline-block;
+   margin-left: 2rem;
+   position: relative;
 }
 
 .my-pics{
@@ -71,6 +104,7 @@ html{
 
 .class-unit{
  display: inline-block;
+ margin-left: 2rem;
 }
 
 .class-pic-1{
@@ -96,19 +130,17 @@ html{
 .section-2{
 
      width: auto;
-    height: 4rem;
     display: block;
     background-color:  black;
     font-size: 4rem;
     right: 8px;
-    padding:3rem;
+    padding:3.5rem;
    color: white;
    position: relative;
    margin-top: 9rem;
    margin-bottom: 1rem;
 }
 
- /* background-color: rgb(112, 195, 195) */
 
 
 

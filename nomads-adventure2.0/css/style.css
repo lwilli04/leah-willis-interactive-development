@@ -23,6 +23,7 @@ html{
     position: relative;
     padding: 2rem;
     font-family: skia;
+    margin: auto;
 } 
 
 
@@ -170,4 +171,17 @@ margin-bottom: 0px;
     font-family: skia;
     font-weight: bold;
     border-radius: 10px;
+}
+
+.music-prompt-box{
+    margin: auto;
+    width: 830px;
+    height: 150px;
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#prompt-text{
+margin: 1rem;
 }

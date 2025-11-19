@@ -16,6 +16,12 @@ ul{
 
 }
 
+.body{
+width: 80%;
+margin: auto;
+min-width: 920px;
+}
+
 
 .banner{
     
@@ -134,10 +140,10 @@ color:black;
     background-color:  black;
     font-size: 4rem;
     right: 8px;
-    padding:3.5rem;
+    padding:3rem;
    color: white;
    position: relative;
-   margin-top: 9rem;
+   margin-top: 3rem;
    margin-bottom: 1rem;
 }
 

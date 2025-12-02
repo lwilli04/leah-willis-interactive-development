@@ -1,0 +1,291 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "barriecito";
+  src: url("fonts/Barriecito-Regular.ttf");
+}
+
+html{
+    font-size: 7px;
+    line-height: 1.3;
+}
+
+body{
+    font-size: 0;
+    background-color:rgb(251, 188, 20);
+}
+
+ul{
+    padding: 0;
+}
+
+.page-body{
+width: 75%;
+height: 100%;
+margin:auto;
+min-width: 1323px;
+max-width: 1780px;
+position: relative;
+background-color: white;
+}
+
+.back-button{
+    width: 125px;
+    height: 25px;
+    color:  rgb(27, 104, 179);
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 2rem;
+     border: solid, 2px;
+    border-color:  rgb(27, 104, 179);
+    display: inline-block;
+     vertical-align: top;
+}
+
+
+.confetti-window{
+    margin: auto;
+    width: 75%;
+    height: auto;
+    position: relative;
+    margin-bottom: 15%;
+
+}
+
+.party-items{
+color: black;
+    font-size: 2.5rem;
+    font-family:'Arial Narrow Bold';
+    width: 80px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+#w-blank-2{
+ right: 0px;
+    top:0px;
+    text-align: right;
+      width: 125px;
+    height: 250px;
+     background-color: white;
+    position: absolute;
+    border: solid, 1px;
+    border-color: rgb(117, 115, 115);
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+#confet-1{
+  
+ border: solid rgb(251, 188, 20) 10px;
+      position: relative;
+    width: calc(5% - 2rem * 1.3);
+    height: 25%;
+    margin-right: calc(10rem * 1.3);
+    margin-bottom: calc(10rem * 1.3);
+    display: inline-block;
+}
+
+
+#confet-2{
+    border: solid, rgb(27, 104, 179) 10px;
+       position: relative;
+    box-sizing: border-box;
+    width: calc(5% - 2rem * 1.3);
+    height: 25%;
+    margin-right: calc(10rem * 1.3);
+    margin-bottom: calc(10rem * 1.3);
+    display: inline-block;
+}
+
+
+
+#confet-3{
+   border: solid rgb(27, 104, 179) 10px;
+       position: relative;
+    box-sizing: border-box;
+    width: calc(5% - 2rem * 1.3);
+    height: 25%;
+    margin-right: calc(10rem * 1.3);
+    margin-bottom: calc(10rem * 1.3);
+    display: inline-block;
+}
+
+
+
+#confet-4{
+  border: solid rgb(251, 188, 20) 10px;
+       position: relative;
+    box-sizing: border-box;
+    width: calc(5% - 2rem * 1.3);
+    height: 25%;
+    margin-right: calc(10rem * 1.3);
+    margin-bottom: calc(10rem * 1.3);
+    display: inline-block;
+}
+
+
+#confet-5{
+  border: solid rgb(251, 188, 20) 10px;
+       position: relative;
+    box-sizing: border-box;
+    width: calc(5% - 2rem * 1.3);
+    height: 25%;
+    margin-right: calc(10rem * 1.3);
+    margin-bottom: calc(10rem * 1.3);
+    display: inline-block;
+    
+}
+
+
+#confet-6{
+    border: solid rgb(27, 104, 179) 10px;
+       position: relative;
+    box-sizing: border-box;
+    width: calc(5% - 2rem * 1.3);
+    height: 25%;
+    margin-right: calc(10rem * 1.3);
+    margin-bottom: calc(10rem * 1.3);
+    display: inline-block;
+}
+
+#confet-7{
+    border: solid rgb(27, 104, 179) 10px;
+       position: relative;
+    box-sizing: border-box;
+    width: calc(5% - 2rem * 1.3);
+    height: 25%;
+    margin-bottom: calc(10rem * 1.3);
+    display: inline-block;
+}
+
+
+.candles{
+      width: 75%;
+    height: 100%; 
+    /* margin-left: calc(2rem * 1.3);
+    margin-right: calc(2rem * 1.3); */
+    /* position: relative; */
+       margin: auto;
+    width: 75%;
+    height: auto;
+}
+
+
+#cand-1{
+   width: 75px;
+    height: 300px;
+    /* position: absolute; */
+    border: solid, 1px;
+    border-color:rgb(27, 104, 179);
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#cand-2{
+   width: 75px;
+    height: 500px;
+    /* position: absolute; */
+   background-color: rgb(27, 104, 179);
+   display: inline-block;
+   vertical-align: bottom;
+   margin-left: calc(1rem * 1.3);
+}
+
+/* .page-text{
+   font-family: barriecito;
+    color:  rgb(251, 188, 20);
+    width: 500px;
+    height: 500px;
+    background-color: white;
+     display: inline-block;
+   vertical-align: top;
+} */
+
+
+
+#happy-text{
+     font-family: barriecito;
+    color:  rgb(251, 188, 20);
+     display: inline-block; 
+    font-size: 18rem; 
+    text-align: left;
+     transform: rotate(-90deg);
+     top:550px;
+     left:200px;
+     position: absolute;
+     }
+
+#birthday-text{
+       font-family: barriecito;
+    color:  rgb(251, 188, 20);
+     display: inline-block; 
+    font-size: 18rem; 
+    text-align: left;
+     transform: rotate(-90deg);
+     top:585px;
+     left:450px;
+     position: absolute;
+}
+
+#cand-3{
+   width: 75px;
+    height: 275px;
+   background-color: rgb(251, 188, 20);
+   display: inline-block;
+   vertical-align: bottom;
+   margin-left: calc(2rem * 1.3);
+}
+
+#cand-4{
+   width: 75px;
+    height: 600px;
+     border: solid, 1px;
+    border-color:rgb(27, 104, 179);
+   display: inline-block;
+   vertical-align: bottom;
+   margin-left: calc(2rem * 1.3);
+
+}
+
+#cand-5{
+   width: 75px;
+    height: 700px;
+     background-color: rgb(27, 104, 179);
+   display: inline-block;
+   vertical-align: bottom;
+   margin-left: calc(2rem * 1.3);
+
+}
+
+#cand-6{
+   width: 75px;
+    height: 200px;
+    background-color: rgb(251, 188, 20);
+   display: inline-block;
+   vertical-align: bottom;
+   margin-left: calc(2rem * 1.3);
+
+}
+
+#cand-7{
+   width: 75px;
+    height: 500px;
+     border: solid, 1px;
+    border-color:rgb(27, 104, 179);
+   display: inline-block;
+   vertical-align: bottom;
+   margin-left: calc(2rem * 1.3);
+
+}
+
+#cand-8{
+   width: 75px;
+    height: 300px;
+    background-color: rgb(27, 104, 179); 
+   display: inline-block;
+   vertical-align: bottom;
+   margin-left: calc(2rem * 1.3);
+
+}

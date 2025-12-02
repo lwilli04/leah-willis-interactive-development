@@ -7,7 +7,7 @@ html{
 
 body{
     font-size: 0;
-    background-color: rgb(27, 104, 179);
+    background-color: black;
 }
 
 ul{
@@ -16,7 +16,10 @@ ul{
 
 .page-body{
 width: 75%;
+height: auto;
 margin:auto;
+min-width: 1060px;
+background-color: rgb(27, 104, 179);
 }
 
 .page-text{
@@ -70,15 +73,6 @@ color: black;
     margin-top: 2rem;
 }
 
-.bbq-items{
-color: black;
-    font-size: 3rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 100px;
-    margin-left: 8rem;
-    margin-top: 2rem;
-}
-
 .clean-items{
 color: black;
     font-size: 2rem;
@@ -99,13 +93,13 @@ color: black;
 #y-blank-1{
      width: 150px;
     height: 300px;
-     left: 500px;
+     right: -500px;
     transform: rotate(45deg);
    background-color: rgb(251, 188, 20);
-    position: relative;
+    position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
-    /* display: inline-block; */
+    margin-right: 75%;
 }
 
 
@@ -127,15 +121,14 @@ color: black;
 #y-blank-3{
      width: 250px;
     height: 400px;
-     left: 1400px;
-    bottom: 1400px;
+     right: -200px;
+    top: -10px;
     transform: rotate(10deg);
     background-color: rgb(251, 188, 20);
-    /* position: absolute; */
-    position: relative;
+    position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
-    /* display: inline-block; */
+    margin-right: 50%;
 }
 
 
@@ -143,15 +136,14 @@ color: black;
 #y-blank-4{
      width: 250px;
     height: 350px;
-     left: 900px;
-    bottom: 2200px;
+    right: -100px;
+    top: -10px;
+    margin-right: 25%;
     transform: rotate(27deg);
     background-color: rgb(251, 188, 20);
-    /* position: absolute; */
-    position: relative;
+    position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
-    /* display: inline-block; */
 }
 
 
@@ -172,17 +164,16 @@ color: black;
 
 
 #w-blank-1{
- left: 1200px;
-    bottom: 400px;
+ right: 200px;
+    top: 300px;
     transform: rotate(50deg);
       width: 150px;
     height: 300px;
      background-color: white;
-    /* position: absolute; */
-    position: relative;
+    position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
-    /* display: inline-block; */
+    margin-right: 10%;
 }
 
 #w-blank-2{
@@ -200,17 +191,16 @@ color: black;
 }
 
 #w-blank-3{
- left: 1400px;
-    bottom: 1500px;
+ right: -300px;
+ top: -1px;
     transform: rotate(-5deg);
       width: 200px;
     height: 250px;
      background-color: white;
-    /* position: absolute; */
-    position: relative;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
-    /* display: inline-block; */
+    position: absolute;
+    margin-right: 10%;
 }
 
 #w-blank-4{
@@ -286,15 +276,14 @@ color: black;
 #w-blank-9{
      width: 200px;
     height: 350px;
-     left: 1600px;
-    bottom: 3600px;
+  right: -500px; 
+ top: -200px;
+ margin-right: 50%;
     transform: rotate(36deg);
     background-color: white;
-    /* position: absolute; */
-    position: relative;
+    position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
-    /* display: inline-block; */
 }
 
 #w-blank-10{
@@ -308,35 +297,32 @@ color: black;
     position: relative;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
-    /* display: inline-block; */
 }
 
 #w-blank-11{
      width: 150px;
     height: 300px;
-     left: 1300px;
-    bottom: 4700px;
+     right: -10px;
+    top: -1px;
     transform: rotate(280deg);
     background-color: white;
-    /* position: absolute; */
-    position: relative;
+    position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
-    /* display: inline-block; */
+    margin-bottom: 30%;
 }
 
 #w-blank-12{
      width: 150px;
     height: 250px;
-     left: 1400px;
-    bottom: 4700px;
+     right: 200px;
+   top: -1px;
     transform: rotate(80deg);
     background-color: white;
-    /* position: absolute; */
-    position: relative;
+    position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
-    /* display: inline-block; */
+    margin-right: 15%;
 }
 
 

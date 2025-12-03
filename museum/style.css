@@ -100,6 +100,7 @@ color: black;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
     margin-right: ;
+    transition: all 1s ease;
 }
 
 #y-blank-3{
@@ -113,6 +114,7 @@ color: black;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
     margin-right: 50%;
+    transition: all 1s ease;
 }
 
 
@@ -180,6 +182,7 @@ color: black;
     position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
+    transition: all 1s ease;
 }
 
 #w-blank-5{
@@ -192,6 +195,7 @@ color: black;
     position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
+    transition: all 1s ease;
     
 }
 
@@ -206,6 +210,7 @@ color: black;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
     margin-right: ;
+    transition: all 1s ease;
     
 }
 
@@ -220,6 +225,7 @@ color: black;
     position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
+    transition: all 1s ease;
 }
 
 #w-blank-8{
@@ -233,6 +239,7 @@ color: black;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
     margin-top: 60%;
+    transition: all 1s ease;
 }
 
 #w-blank-9{
@@ -246,6 +253,7 @@ color: black;
     position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
+    transition: all 1s ease;
 }
 
 #w-blank-10{
@@ -258,6 +266,7 @@ color: black;
     position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
+    transition: all 1s ease;
 }
 
 #w-blank-11{
@@ -271,6 +280,7 @@ color: black;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
     margin-bottom: 30%;
+    transition: all 1s ease;
 }
 
 #w-blank-12{
@@ -284,6 +294,7 @@ color: black;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
     margin-right: 15%;
+    transition: all 1s ease;
 }
 
 
@@ -295,6 +306,10 @@ color: black;
 .less-margin{
     margin-left: 400px;
     margin-top: 100px;
+}
+
+.down-margin{
+    margin-top: 400px;
 }
 
 #y-blank-5{

@@ -93,36 +93,20 @@ color: black;
 #y-blank-1{
      width: 150px;
     height: 300px;
-     right: -500px;
+     right: -1px;
     transform: rotate(45deg);
    background-color: rgb(251, 188, 20);
     position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
-    margin-right: 75%;
+    margin-right: ;
 }
-
-
-#y-blank-2{
-     width: 200px;
-    height: 400px;
-     left: 1200px;
-     bottom: 300px;
-    transform: rotate(295deg);
-    background-color: rgb(251, 188, 20);
-    position: relative;
-    border: solid, 1px;
-    border-color: rgb(117, 115, 115);
-    /* display: inline-block; */
-}
-
-
 
 #y-blank-3{
-     width: 250px;
-    height: 400px;
+     width: 150px;
+    height: 300px;
      right: -200px;
-    top: -10px;
+    bottom: px;
     transform: rotate(10deg);
     background-color: rgb(251, 188, 20);
     position: absolute;
@@ -134,10 +118,10 @@ color: black;
 
 
 #y-blank-4{
-     width: 250px;
-    height: 350px;
+     width: 150px;
+    height: 250px;
     right: -100px;
-    top: -10px;
+    bottom: 400px;
     margin-right: 25%;
     transform: rotate(27deg);
     background-color: rgb(251, 188, 20);
@@ -147,25 +131,9 @@ color: black;
 }
 
 
-#y-blank-5{
-     width: 150px;
-    height: 250px;
-     left: 600px;
-    bottom: 3000px;
-    transform: rotate(80deg);
-    background-color: rgb(251, 188, 20);
-    /* position: absolute; */
-    position: relative;
-    border: solid, 1px;
-    border-color: rgb(117, 115, 115);
-    /* display: inline-block; */
-    
-}
-
-
 #w-blank-1{
- right: 200px;
-    top: 300px;
+ right: 500px;
+    top: 800px;
     transform: rotate(50deg);
       width: 150px;
     height: 300px;
@@ -177,22 +145,21 @@ color: black;
 }
 
 #w-blank-2{
- left: 800px;
-    bottom: 900px;
+ right: -1px;
+    top: 300px;
     transform: rotate(-45deg);
-      width: 250px;
-    height: 400px;
+      width: 200px;
+    height: 300px;
      background-color: white;
-    /* position: absolute; */
-    position: relative;
+    position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
-    /* display: inline-block; */
+    margin-right: 25%;
 }
 
 #w-blank-3{
- right: -300px;
- top: -1px;
+ right: -200px;
+ bottom: 200px;
     transform: rotate(-5deg);
       width: 200px;
     height: 250px;
@@ -204,80 +171,75 @@ color: black;
 }
 
 #w-blank-4{
- left: 1000px;
-    bottom: 3300px;
+ left: 200px;
+    bottom: 25px;
     transform: rotate(98deg);
-      width: 250px;
-    height: 400px;
+      width: 150px;
+    height: 300px;
      background-color: white;
-    /* position: absolute; */
-    position: relative;
+    position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
-    /* display: inline-block; */
 }
 
 #w-blank-5{
- left: 100px;
-    bottom: 2850px;
+ left: 550px;
+    bottom: 100px;
     transform: rotate(42deg);
       width: 150px;
     height: 300px;
      background-color: white;
-    /* position: absolute; */
-    position: relative;
+    position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
-    /* display: inline-block; */
+    
 }
 
 #w-blank-6{
- left: 900px; 
+    right: -10px; 
+    top: 700px;
     transform: rotate(-22deg);
       width: 200px;
     height: 250px;
      background-color: white;
-    /* position: absolute; */
-    position: relative;
+    position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
-    /* display: inline-block; */
+    margin-right: ;
+    
 }
 
 
 #w-blank-7{
      width: 200px;
     height: 350px;
-     left: 700px;
-    bottom: 3000px;
+     left: 800px;
+    top: 400px;
     transform: rotate(125deg);
     background-color: white;
-    /* position: absolute; */
-    position: relative;
+    position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
-    /* display: inline-block; */
 }
 
 #w-blank-8{
      width: 200px;
-    height: 350px;
-     left: 365px;
-    bottom: 3015px;
+    height: 250px;
+     right: -10px;
+    bottom: 500px;
     transform: rotate(80deg);
     background-color: white;
-    /* position: absolute; */
-    position: relative;
+    position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
-    /* display: inline-block; */
+    margin-top: 60%;
 }
 
 #w-blank-9{
      width: 200px;
     height: 350px;
   right: -500px; 
- top: -200px;
+ bottom: 100px;
  margin-right: 50%;
     transform: rotate(36deg);
     background-color: white;
@@ -289,12 +251,11 @@ color: black;
 #w-blank-10{
      width: 200px;
     height: 250px;
-     left: 1600px;
-    bottom: 4300px;
+     left: 600px;
+    bottom: 300px;
     transform: rotate(80deg);
     background-color: white;
-    /* position: absolute; */
-    position: relative;
+    position: absolute;
     border: solid, 1px;
     border-color: rgb(117, 115, 115);
 }
@@ -326,6 +287,49 @@ color: black;
 }
 
 
+.more-margin{
+    margin-left:800px;
+    margin-top: 300px;
+}
+
+.less-margin{
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+#y-blank-5{
+     width: 150px;
+    height: 250px;
+     left: px;
+    bottom: px;
+    transform: rotate(80deg);
+    background-color: rgb(251, 188, 20);
+    position: absolute;
+    border: solid, 1px;
+    border-color: rgb(117, 115, 115);
+     transition: all 1s ease;
+    
+}
+
+
+#y-blank-2{
+     width: 200px;
+    height: 400px;
+     left: 300px;
+     bottom: 100px;
+    transform: rotate(295deg);
+    background-color: rgb(251, 188, 20);
+    position: absolute;
+    border: solid, 1px;
+    border-color: rgb(117, 115, 115);
+    margin-right: 40%;
+    transition: all 1s ease;
+}
+
+span{
+    cursor: pointer;
+    user-select: none;
+}
 
 
 

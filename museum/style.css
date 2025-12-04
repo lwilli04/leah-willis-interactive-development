@@ -7,7 +7,6 @@ html{
 
 body{
     font-size: 0;
-    background-color: black;
 }
 
 ul{
@@ -15,7 +14,7 @@ ul{
 }
 
 .page-body{
-width: 75%;
+width: 100%;
 height: auto;
 margin:auto;
 min-width: 1060px;
@@ -217,7 +216,7 @@ color: black;
 
 #w-blank-7{
      width: 200px;
-    height: 350px;
+    height: 150px;
      left: 800px;
     top: 400px;
     transform: rotate(125deg);
@@ -243,8 +242,8 @@ color: black;
 }
 
 #w-blank-9{
-     width: 200px;
-    height: 350px;
+     width: 125px;
+    height: 100px;
   right: -500px; 
  bottom: 100px;
  margin-right: 50%;
@@ -257,8 +256,8 @@ color: black;
 }
 
 #w-blank-10{
-     width: 200px;
-    height: 250px;
+     width: 175px;
+    height: 125px;
      left: 600px;
     bottom: 300px;
     transform: rotate(80deg);
@@ -273,7 +272,7 @@ color: black;
      width: 150px;
     height: 300px;
      right: -10px;
-    top: -1px;
+    bottom: px;
     transform: rotate(280deg);
     background-color: white;
     position: absolute;
